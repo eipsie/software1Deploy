@@ -81,7 +81,7 @@ const rules = {
 // 测试后端连接
 const testBackendConnection = async () => {
   try {
-    const response = await axios.get('http://localhost:8080/api/test/hello', {
+    const response = await axios.get('http://47.122.78.242:8080/api/test/hello', {
       withCredentials: false
     });
     console.log('测试响应:', response.data);

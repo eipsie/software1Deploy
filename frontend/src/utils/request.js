@@ -4,7 +4,7 @@ import router from '../router'
 
 // 创建Axios实例
 const request = axios.create({
-  baseURL: 'http://localhost:8080', // 直接使用后端地址
+  baseURL: 'http://47.122.78.242:8080', // 直接使用后端地址
   timeout: 10000, // 超时时间
   withCredentials: false, // 不再携带cookie
   headers: {

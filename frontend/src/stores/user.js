@@ -16,7 +16,7 @@ export const useUserStore = defineStore('user', {
       try {
         console.log('尝试登录，用户名:', username);
         // 确保禁用withCredentials
-        const response = await axios.post('http://localhost:8080/api/user/login', {
+        const response = await axios.post('http://47.122.78.242:8080/api/user/login', {
           username,
           password
         }, {
